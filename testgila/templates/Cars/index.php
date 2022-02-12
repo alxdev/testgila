@@ -24,3 +24,7 @@
     </tr>
     <?php endforeach; ?>
 </table>
+
+<button type="submit">
+  <?= $this->Html->link('Add Car', ['action' => 'add']) ?>
+</button>
